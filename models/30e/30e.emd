@@ -1,0 +1,49 @@
+{
+    "Framework": "arcgis.learn.models._inferencing",
+    "ModelConfiguration": "_unet",
+    "ModelType": "ImageClassification",
+    "InferenceFunction": "ArcGISImageClassifier.py",
+    "ExtractBands": [
+        0,
+        1,
+        2
+    ],
+    "ignore_mapped_class": [],
+    "SupportsVariableTileSize": true,
+    "Classes": [
+        {
+            "Value": 1,
+            "Name": "1",
+            "Color": [
+                185,
+                2,
+                84
+            ]
+        },
+        {
+            "Value": 2,
+            "Name": "2",
+            "Color": [
+                171,
+                175,
+                202
+            ]
+        }
+    ],
+    "ArcGISLearnVersion": "1.8.4",
+    "ModelFile": "30e.pth",
+    "ImageHeight": 400,
+    "ImageWidth": 400,
+    "ImageSpaceUsed": "MAP_SPACE",
+    "LearningRate": "slice('1.0000e-04', '1.0000e-03', None)",
+    "ModelName": "UnetClassifier",
+    "backend": "pytorch",
+    "ModelParameters": {
+        "backbone": "resnet34",
+        "backend": "pytorch"
+    },
+    "accuracy": "9.5355e-01",
+    "resize_to": 400,
+    "IsMultispectral": false,
+    "per_class_metrics": "{\"NoData\":{\"precision\":0.0,\"recall\":0.0,\"f1\":0.0},\"1\":{\"precision\":0.9668517113,\"recall\":0.9698519111,\"f1\":0.9680315852},\"2\":{\"precision\":0.7873181105,\"recall\":0.7755895257,\"f1\":0.7695013285}}"
+}
