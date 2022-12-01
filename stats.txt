@@ -1,0 +1,6 @@
+images = 3382 *3*400*400
+classes = 2
+classes per image = [min = 1, mean = 1.25, max = 2]
+cls name              cls value     images   pixels      min size   mean size    max size
+1                             1       3382  531590974    96568.00   157182.43   160000.00
+2                             2        842    9529026        0.00     2817.57    63432.00

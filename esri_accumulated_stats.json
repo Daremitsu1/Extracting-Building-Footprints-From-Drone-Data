@@ -1,0 +1,55 @@
+{
+  "Version" : 1,
+  "NumBands" : 3,
+  "TileSizeX" : 400,
+  "TileSizeY" : 400,
+  "NumClasses" : 2,
+  "NumTiles" : 3382,
+  "OutputFeatures" : false,
+  "MetaDataMode" : "Classified_Tiles",
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "1"
+    },
+    {
+      "ClassValue" : 2,
+      "ClassName" : "2"
+    }
+  ],
+  "ClassPixelStats" : {
+    "NumClasses" : 2,
+    "NumImagesTotal" : 3382,
+    "NumImagesPerClass" : [
+      3382,
+      842
+    ],
+    "NumPixelsPerClass" : [
+      531590974,
+      9529026
+    ],
+    "NumClassesPerImage" : {
+      "Min" : 1,
+      "Max" : 2,
+      "Mean" : 1.2489651094027203,
+      "Sum" : 4224,
+      "Count" : 3382
+    },
+    "PixelsPerClass" : [
+      {
+        "Min" : 96568,
+        "Max" : 160000,
+        "Mean" : 157182.42874039031,
+        "Sum" : 531590974,
+        "Count" : 3382
+      },
+      {
+        "Min" : 0,
+        "Max" : 63432,
+        "Mean" : 2817.5712596096982,
+        "Sum" : 9529026,
+        "Count" : 3382
+      }
+    ]
+  }
+}
